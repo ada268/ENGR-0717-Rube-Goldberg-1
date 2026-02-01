@@ -1,5 +1,3 @@
-//https://arduinogetstarted.com/tutorials/arduino-force-sensor
-
 void setup() {
   pinMode(LED_BUILTIN,OUTPUT); //setting builtin LED as output
   pinMode(A0,INPUT); //setting pin A0 as an input
