@@ -21,12 +21,14 @@ void loop() {
   Serial.println(analogRead(A0));
   if(analogRead(A0)>200)
   {
-  analogWrite(6, 90); // PWM for speed 
+  analogWrite(6, 140); // PWM for speed 
   digitalWrite(7, LOW); // opposite pin LOW 
-  delay(100);
+  delay(5000);
  }
   else
   {
     
   }
 }
+
+// Lines 24 and 25 were written by Microsoft Copilot. 
